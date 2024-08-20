@@ -1,0 +1,161 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared style */
+.display-flex{
+  display: flex;
+}
+
+.text-white{
+  color: rgb(255, 255, 255);
+}
+
+.text-gray{
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+  background-color: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  padding: 15px 35px ;
+  width: 224px;
+  height: 54px;
+  font-weight: 600;
+  font-size: 1.12rem;
+  margin: 0px 14px;
+  border-radius: 42px;
+  
+}
+/* header style */
+.bg-banner{
+  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),  rgba(119, 119, 119, 0) 100%); */
+background-color: #111111; 
+
+}
+
+
+
+
+
+/* navbar related style */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+
+}
+.brand{
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: rgb(230, 83, 60);
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  
+  
+}
+.nav-links{
+  width: 465px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 47;
+  padding: 4px; 
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.10rem;
+
+}
+
+.navbar{
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+.nav-btn{
+  
+  width: 92px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 10;
+  padding: 8px 20px 8px 20px;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+}
+.hamburger-menu{
+  display: none;
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+}
+
+/* banner related styles */
+.banner{
+  
+  justify-content: space-evenly;
+}
+.banner-tittle{
+  font-weight: 900;
+  font-size: 5rem;
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 28px auto;
+}
+.banner-content{
+  max-width: 600px;
+  margin: 100px 190px 77px 87px;
+}
+.banner-image{
+  margin-top: 35px;
+  margin-right: 150px;
+}
+.download-btn{
+  background-color:#111111 ;
+  color: rgb(255, 255, 255);
+  padding: 15px 35px ;
+  width: 224px;
+  height: 54px;
+  font-weight: 600;
+  font-size: 1.12rem;
+  margin: 0px 14px;
+  border-radius: 42px;
+
+}
+
+
+  
